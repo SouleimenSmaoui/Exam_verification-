@@ -1,0 +1,9 @@
+# requirements.txt - package names. Avoid using '==latest' which is invalid.
+# Pin versions if you need reproducible installs (example commented below).
+# Example: opencv-python==4.7.0.72
+opencv-python
+numpy
+pyzbar
+
+# Note for Windows: if `pyzbar` fails to find the zbar backend, install
+# the platform zbar package or use a wheel that bundles it. See README.md.
